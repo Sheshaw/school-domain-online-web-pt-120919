@@ -12,6 +12,8 @@ end
      roster[number] << student
   end
   
+  def grade
+  
   
   
   
