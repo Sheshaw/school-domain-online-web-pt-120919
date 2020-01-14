@@ -15,4 +15,4 @@ class School
   
 end
 
-School.new("Test School")
+school = School.new("Test School")
