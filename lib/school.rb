@@ -16,7 +16,9 @@ end
     roster.detect do |a, b| 
       if a == number
         return b
-      end 
+      end
+    end
+  end
   
 
 end
