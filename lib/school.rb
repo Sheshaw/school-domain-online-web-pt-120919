@@ -12,7 +12,7 @@ end
      roster[number] << student
   end
   
-  def grade
+  def grade(number)
   
   
   
