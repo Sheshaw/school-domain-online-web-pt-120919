@@ -20,6 +20,15 @@ end
     end
   end
   
+  def sort 
+  beg_hash = {}
+  roster.each do |a, b| 
+    beg_hash[a] = b.sort 
+  end 
+  beg_hash
+end 
+  
+  
 
 end
 
