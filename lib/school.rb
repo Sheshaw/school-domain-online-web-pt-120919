@@ -13,15 +13,12 @@ end
   end
   
   def grade(number)
-    roster.detect do |x, y| 
-      if x == level
-        return y 
+    roster.detect do |a, b| 
+      if a == level
+        return b
       end 
   
-  
-  
-  
-  
+
 end
 
 school = School.new("Test School")
